@@ -420,7 +420,7 @@ header {
           flex-direction: column;
 }
 
-.access__flex .access__form form #email {
+.access__flex .access__form form #email2 {
   margin-bottom: 20px;
   padding: 15px;
   width: 100%;
@@ -430,23 +430,23 @@ header {
           box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
-.access__flex .access__form form #email::-webkit-input-placeholder {
+.access__flex .access__form form #email2::-webkit-input-placeholder {
   font-family: "Raleway", sans-serif;
 }
 
-.access__flex .access__form form #email:-ms-input-placeholder {
+.access__flex .access__form form #email2:-ms-input-placeholder {
   font-family: "Raleway", sans-serif;
 }
 
-.access__flex .access__form form #email::-ms-input-placeholder {
+.access__flex .access__form form #email2::-ms-input-placeholder {
   font-family: "Raleway", sans-serif;
 }
 
-.access__flex .access__form form #email::placeholder {
+.access__flex .access__form form #email2::placeholder {
   font-family: "Raleway", sans-serif;
 }
 
-.access__flex .access__form form #email:focus {
+.access__flex .access__form form #email2:focus {
   outline: none;
   border: 1px solid red;
 }
