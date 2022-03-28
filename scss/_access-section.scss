@@ -1,0 +1,68 @@
+.access {
+  background-color: $primary-blue;
+}
+
+.access__flex {
+  display: flex;
+  .access__content {
+    max-width: 650px;
+  }
+  .access__form {
+    margin-left: 150px;
+    flex-grow: 1;
+    text-align: center;
+    align-self: center;
+    min-width: 275px;
+  }
+}
+
+.access__flex {
+  padding: 50px 0;
+  .access__content {
+    &-title {
+      font-size: 2.2rem;
+      font-weight: 700;
+      line-height: 1.5;
+      color: $neutral-blue;
+      margin-bottom: $gutter;
+    }
+    &-subtitle {
+      font-size: 1.3rem;
+      max-width: 700px;
+      margin-bottom: $gutter;
+      color: $neutral-blue;
+    }
+  }
+}
+
+.access__flex {
+  .access__form {
+    form {
+      display: flex;
+      flex-direction: column;
+      #email {
+        margin-bottom: $gutter;
+        padding: 15px;
+        width: 100%;
+        border-radius: 3px;
+        border: 1px solid $primary-blue;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+          rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        &::placeholder {
+          font-family: $font-secondary;
+        }
+        &:focus {
+          outline: none;
+          border: 1px solid red;
+        }
+      }
+      .form-btn {
+        align-self: flex-start;
+        padding: 15px 60px;
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+}

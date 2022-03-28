@@ -1,0 +1,114 @@
+.productive {
+  .mobile {
+    display: none;
+  }
+}
+
+.productive {
+  position: relative;
+  padding: 50px 0;
+  background-color: #f8f8fe;
+  .productive-bg {
+    position: absolute;
+    top: 0;
+    transform: translateY(-100%);
+    width: 100%;
+    z-index: 0;
+  }
+}
+
+.productive__flex {
+  display: flex;
+  align-items: center;
+  .productive__content {
+    flex-grow: 2;
+    position: relative;
+  }
+  .productive__img {
+    max-width: 550px;
+    position: relative;
+  }
+}
+
+.productive__flex {
+  .productive__content {
+    margin-right: 20px;
+    &-title {
+      font-size: 3rem;
+      font-weight: 700;
+      line-height: 1.5;
+      color: $primary-blue-dark;
+      margin-bottom: $gutter;
+    }
+    &-subtitle {
+      font-size: 1.3rem;
+      max-width: 700px;
+      margin-bottom: $gutter;
+    }
+    &-link {
+      position: relative;
+      display: inline-block;
+      transition: opacity 0.25s ease;
+      .link {
+        color: $accent-cyan;
+        display: inline-block;
+        font-size: 1.3rem;
+      }
+      .icon-arrow {
+        vertical-align: middle;
+        margin-left: 3px;
+      }
+      &:after {
+        content: "";
+        height: 1px;
+        width: 100%;
+        background-color: $accent-cyan;
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+      }
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+    .productive__testimonial {
+      display: flex;
+      flex-direction: column;
+      max-width: 380px;
+      background-color: #fff;
+      padding: $gutter;
+      border-radius: 5px;
+      margin-top: 50px;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      &-quotes {
+        transform: scale(1.3);
+      }
+      &-desc {
+        margin: $gutter 0;
+        font-size: 1rem;
+        line-height: 1.7;
+        text-align: left;
+      }
+      &-profile {
+        display: flex;
+        align-items: center;
+        &-persona {
+          width: 50px;
+          height: auto;
+          border-radius: 50%;
+        }
+        &__author {
+          margin-left: 10px;
+          &-name {
+            text-align: left;
+            font-size: 1rem;
+            font-weight: 700;
+          }
+          &-subname {
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+  }
+}

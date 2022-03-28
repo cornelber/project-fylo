@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Fylo Landing Page</title>
+    <link rel="stylesheet" href="css/styles.min.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <div class="navbar__img">
+            <a href="#" class="navbar__img-logo">
+              <img src="./images/logo.svg" alt="Fylo" class="img-responsive" />
+            </a>
+          </div>
+          <div class="navbar__links">
+            <a href="#" class="navbar__links-link">Features</a>
+            <a href="#" class="navbar__links-link">Team</a>
+            <a href="#" class="navbar__links-link">Sign In</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Main -->
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero__flex">
+            <div class="hero__content">
+              <h1 class="hero__content-title">
+                All your files in one secure location, accessible anywhere.
+              </h1>
+              <p class="hero__content-subtitle">
+                Fylo stores your most important files in one secure location.
+                Access them wherever you need, share and collaborate with
+                friends, family, and co-workers.
+              </p>
+              <form class="hero__content-form">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Enter your email..."
+                  required
+                />
+                <button type="submit" class="form-btn btn">Get Started</button>
+              </form>
+            </div>
+            <div class="hero__img">
+              <img
+                class="img-responsive"
+                src="./images/illustration-1.svg"
+                alt="illustration"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.hero -->
+      <section class="productive">
+        <img
+          src="./images/bg-curve-desktop.svg"
+          alt="desktop background"
+          class="productive-bg desktop"
+        />
+        <img
+          src="./images/bg-curve-mobile.svg"
+          alt="mobile background"
+          class="productive-bg mobile"
+        />
+        <div class="container">
+          <div class="productive__flex">
+            <div class="productive__content">
+              <h1 class="productive__content-title">
+                Stay productive, wherever you are
+              </h1>
+              <p class="productive__content-subtitle">
+                Never let location be an issue when accessing your files. Fylo
+                has you covered for all of your file storage needs.
+              </p>
+              <p class="productive__content-subtitle">
+                Securely share files and folders with friends, family and
+                colleagues for live collaboration. No email attachments
+                required!
+              </p>
+              <div class="productive__content-link">
+                <a href="#" class="link">See how Fylo works</a>
+                <svg
+                  width="16"
+                  height="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  class="icon-arrow"
+                >
+                  <defs>
+                    <circle id="b" cx="6" cy="6" r="6" />
+                    <filter
+                      x="-25%"
+                      y="-25%"
+                      width="150%"
+                      height="150%"
+                      filterUnits="objectBoundingBox"
+                      id="a"
+                    >
+                      <feOffset in="SourceAlpha" result="shadowOffsetOuter1" />
+                      <feGaussianBlur
+                        stdDeviation="1"
+                        in="shadowOffsetOuter1"
+                        result="shadowBlurOuter1"
+                      />
+                      <feColorMatrix
+                        values="0 0 0 0 0.239215686 0 0 0 0 0.62745098 0 0 0 0 0.560784314 0 0 0 0.793506567 0"
+                        in="shadowBlurOuter1"
+                      />
+                    </filter>
+                  </defs>
+                  <g fill="none" fill-rule="evenodd">
+                    <g transform="translate(2 2)">
+                      <use fill="#000" filter="url(#a)" xlink:href="#b" />
+                      <use fill="#3DA08F" xlink:href="#b" />
+                    </g>
+                    <path
+                      d="M8.582 6l-.363.35 1.452 1.4H5.333v.5h4.338L8.22 9.65l.363.35 2.074-2z"
+                      fill="#FFF"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <div class="productive__testimonial">
+                <svg
+                  width="13"
+                  height="12"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="productive__testimonial-quotes"
+                >
+                  <text
+                    transform="translate(-34 -25)"
+                    fill="#07043B"
+                    fill-rule="evenodd"
+                    font-family="Helvetica"
+                    font-size="45"
+                  >
+                    <tspan x="33" y="56">“</tspan>
+                  </text>
+                </svg>
+                <p class="productive__testimonial-desc">
+                  Fylo has improved our team productivity by an order of
+                  magnitude. Since making the switch our team has become a
+                  well-oiled collaboration machine.
+                </p>
+                <div class="productive__testimonial-profile">
+                  <img
+                    src="images/avatar-testimonial.jpg"
+                    alt="Persona"
+                    class="productive__testimonial-profile-persona img-responsive"
+                  />
+                  <div class="productive__testimonial-profile__author">
+                    <h4 class="productive__testimonial-profile__author-name">
+                      Kyle Burton
+                    </h4>
+                    <p class="productive__testimonial-profile__author-subname">
+                      Founder & CEO, Huddle
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="productive__img">
+              <img
+                src="./images/illustration-2.svg"
+                alt="illustration"
+                class="img-responsive"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.productive -->
+      <section class="access">
+        <div class="container">
+          <div class="access__flex">
+            <div class="access__content">
+              <h2 class="access__content-title">Get early access today</h2>
+              <p class="access__content-subtitle">
+                It only takes a minute to sign up and our free starter tier is
+                extremely generous. If you have any questions, our support team
+                would be happy to help you.
+              </p>
+            </div>
+            <div class="access__form">
+              <form action="#">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Enter your email..."
+                  required
+                />
+                <button type="submit" class="form-btn btn">
+                  Get Started For Free
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer__flex">
+          <div class="footer__row">
+            <img
+              src="./images/logo-footer.svg"
+              alt="Fylo"
+              class="img-responisve"
+            />
+          </div>
+          <div class="footer__row">
+            <div class="footer__col footer__contacts">
+              <ul>
+                <li>
+                  <img
+                    src="./images/icon-phone.svg"
+                    alt="phone"
+                    class="img-responisve"
+                  />
+                  <a href="tel:+1-543-123-4567">Phone: +1-543-123-4567</a>
+                </li>
+                <li>
+                  <img
+                    src="./images/icon-email.svg"
+                    alt="email"
+                    class="img-responisve"
+                  />
+                  <a href="mailto:example@fylo.com">example@fylo.com</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__col footer__links">
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </div>
+            <div class="footer__col footer__links">
+              <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+              </ul>
+            </div>
+            <div class="footer__col footer__social">
+              <a href="#">
+                <img
+                  src="./images/facebook.svg"
+                  alt="facebook"
+                  class="img-responisve"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="./images/twitter.svg"
+                  alt="twitter"
+                  class="img-responisve"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="./images/instagram.svg"
+                  alt="instagram"
+                  class="img-responisve"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/cornelber">cornelber</a>.
+    </p> -->
+    </footer>
+  </body>
+</html>
