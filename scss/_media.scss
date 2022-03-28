@@ -139,6 +139,16 @@
   .footer__flex {
     .footer__row:nth-child(2) {
       flex-direction: column;
+      .footer__contacts {
+        margin-top: 10px;
+        margin-bottom: 30px;
+      }
+      .footer__links {
+        margin-bottom: 30px;
+      }
+      .footer__social {
+        text-align: center;
+      }
     }
   }
 }

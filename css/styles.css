@@ -673,6 +673,16 @@ footer {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .footer__flex .footer__row:nth-child(2) .footer__contacts {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .footer__flex .footer__row:nth-child(2) .footer__links {
+    margin-bottom: 30px;
+  }
+  .footer__flex .footer__row:nth-child(2) .footer__social {
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 480px) {
